@@ -1,0 +1,2 @@
+chat: python chat/tornado_server/index.py
+web: gunicorn -b 0.0.0.0:$PORT optify.wsgi:application 
